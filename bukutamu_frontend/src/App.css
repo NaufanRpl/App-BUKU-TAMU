@@ -1,0 +1,140 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  /* text-align: center; */
+  background-image: url(assets/img/Untitled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 679px;
+}
+
+input::placeholder {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  color: rgba(255, 255, 255, 1);
+  padding: 2.5px 10px;
+  /* border-radius: 5px; */
+  font-style: italic;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: chocolate;
+  border-radius: 10px;
+  border: none solid #f3f3f3;
+}
+
+.teks {
+  background-color: rgba(207, 136, 5, 0.713);
+  height: 10rem;
+}
+
+.warna {
+  color: white;
+}
+
+.card {
+  background-color: rgba(207, 136, 5, 0.713);
+  padding: 1em 2em;
+}
+
+.card-header {
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+}
+
+#tabel_tamu {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 10px !important;
+  backdrop-filter: blur(5px) !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin-top: 0 auto;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+  background-color: white;
+  margin-top: 0;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#tabel_tamu:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#tabel_user{
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 10px !important;
+  backdrop-filter: blur(5px) !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+form {
+  background-color: rgba(207, 136, 5, 0.7);
+  border-radius: 12px;
+}
+span {
+  color: #00ffff;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
